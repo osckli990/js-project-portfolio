@@ -6,6 +6,7 @@ export const Profile = () => {
       src=".../assets/cropped_profile.png"
       alt="Profile image"
       aria-label="decorative"
+      //aria-role="img"
     />
   );
 };

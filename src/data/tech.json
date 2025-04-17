@@ -1,0 +1,55 @@
+{
+  "Basic": [
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "Flexbox"
+    },
+    {
+      "name": "Web Accessibility"
+    }
+  ],
+  "Backend": [
+    {
+      "name": "Javascript"
+    },
+    {
+      "name": "JSX"
+    },
+    {
+      "name": "Node.js"
+    },
+    {
+      "name": "Mongo DB"
+    },
+    {
+      "name": "API's"
+    }
+  ],
+  "Frontend": [
+    {
+      "name": "React"
+    },
+    {
+      "name": "React Hooks"
+    }
+  ],
+  "Methods": [
+    {
+      "name": "Mob-programming"
+    },
+    {
+      "name": "Pair-programming"
+    },
+    {
+      "name": "Github"
+    },
+    {
+      "name": "Git"
+    }
+  ]
+}
