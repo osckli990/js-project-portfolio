@@ -2,7 +2,7 @@ import React from "react";
 
 export const Introduction = () => {
   return (
-    <p>
+    <p className="pb-14">
       As a developer with a background in health and social care 💊, I have a
       unique perspective on how technology can improve people's lives. I am
       currently enrolled in a 32-week remote bootcamp at Technigo, where I am

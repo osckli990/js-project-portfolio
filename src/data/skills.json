@@ -1,0 +1,38 @@
+{
+  "skills": [
+    {
+      "names": [
+        "HTML5",
+        "CSS3",
+        "Javascript ES6",
+        "React",
+        "API's",
+        "Styled",
+        "Components",
+        "Github"
+      ],
+      "title": "Code",
+      "id": 1
+    },
+    {
+      "names": ["Figma", "Slack"],
+      "title": "Toolbox",
+      "id": 2
+    },
+    {
+      "names": ["React Native"],
+      "title": "Upcoming",
+      "id": 3
+    },
+    {
+      "names": [
+        "Agile Methodology",
+        "Development",
+        "Analisys",
+        "Problem solving"
+      ],
+      "title": "More",
+      "id": 4
+    }
+  ]
+}

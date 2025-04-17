@@ -1,12 +1,14 @@
 import React from "react";
 
+import profileImage from "../../assets/cropped_profile.png";
+
 export const Profile = () => {
   return (
     <img
-      src=".../assets/cropped_profile.png"
+      className="my-4 mx-auto"
+      src={profileImage}
       alt="Profile image"
-      aria-label="decorative"
-      //aria-role="img"
+      aria-label="Profile image"
     />
   );
 };

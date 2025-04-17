@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -9,6 +13,10 @@
 body {
   margin: 0;
   padding: 0;
+}
+
+#root {
+  width: 100%;
 }
 
 h1 {

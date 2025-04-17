@@ -1,14 +1,11 @@
 import React from "react";
 
 export const SkillBox = ({ tech, title }) => {
-  console.log(tech);
-  console.log(title);
-
   return (
     <>
-      <p>{title}</p>
+      <p className="text-inherit text-center">{title}</p>
       {tech.map((tech) => {
-        return <li>{tech}</li>;
+        return <li className="text-inherit">{tech}</li>;
       })}
     </>
   );
