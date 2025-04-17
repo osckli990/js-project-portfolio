@@ -1,6 +1,6 @@
 import React from "react";
 
-export const SkillBox = ({ tech, title }) => {
+export const TechBox = ({ tech, title }) => {
   return (
     <>
       <p className="text-inherit text-center">{title}</p>

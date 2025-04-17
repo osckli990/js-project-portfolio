@@ -2,7 +2,7 @@ import React from "react";
 
 import tech from "../data/tech.json";
 
-import { SkillBox } from "./TechComponents/Skillbox";
+import { SkillBox } from "./TechComponents/TechBox";
 import { Title } from "./TechComponents/Title";
 
 export const Tech = () => {
@@ -11,7 +11,7 @@ export const Tech = () => {
       <div className="text-white">
         <Title />
         {tech.tech.map((category) => (
-          <SkillBox
+          <TechBox
             key={category.id}
             tech={category.names}
             title={category.title}
