@@ -1,55 +1,24 @@
 {
-  "Basic": [
+  "tech": [
     {
-      "name": "HTML"
+      "names": ["HTML", "CSS", "Flexbox", "Web Accessibility"],
+      "title": "Basic",
+      "id": 1
     },
     {
-      "name": "CSS"
+      "names": ["Javascript", "JSX", "Node.js", "Mongo DB", "API's"],
+      "title": "Backend",
+      "id": 2
     },
     {
-      "name": "Flexbox"
+      "names": ["React", "React Hooks"],
+      "title": "Frontend",
+      "id": 3
     },
     {
-      "name": "Web Accessibility"
-    }
-  ],
-  "Backend": [
-    {
-      "name": "Javascript"
-    },
-    {
-      "name": "JSX"
-    },
-    {
-      "name": "Node.js"
-    },
-    {
-      "name": "Mongo DB"
-    },
-    {
-      "name": "API's"
-    }
-  ],
-  "Frontend": [
-    {
-      "name": "React"
-    },
-    {
-      "name": "React Hooks"
-    }
-  ],
-  "Methods": [
-    {
-      "name": "Mob-programming"
-    },
-    {
-      "name": "Pair-programming"
-    },
-    {
-      "name": "Github"
-    },
-    {
-      "name": "Git"
+      "names": ["Mob-programming", "Pair-programming", "Github", "Git"],
+      "title": "Methods",
+      "id": 4
     }
   ]
 }
