@@ -3,22 +3,22 @@
     {
       "names": ["HTML", "CSS", "Flexbox", "Web Accessibility"],
       "title": "Basic",
-      "id": 1
+      "id": "t-1"
     },
     {
       "names": ["Javascript", "JSX", "Node.js", "Mongo DB", "API's"],
       "title": "Backend",
-      "id": 2
+      "id": "t-2"
     },
     {
       "names": ["React", "React Hooks"],
       "title": "Frontend",
-      "id": 3
+      "id": "t-3"
     },
     {
       "names": ["Mob-programming", "Pair-programming", "Github", "Git"],
       "title": "Methods",
-      "id": 4
+      "id": "t-4"
     }
   ]
 }

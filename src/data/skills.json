@@ -12,17 +12,17 @@
         "Github"
       ],
       "title": "Code",
-      "id": 1
+      "id": "s-1"
     },
     {
       "names": ["Figma", "Slack"],
       "title": "Toolbox",
-      "id": 2
+      "id": "s-2"
     },
     {
       "names": ["React Native"],
       "title": "Upcoming",
-      "id": 3
+      "id": "s-3"
     },
     {
       "names": [
@@ -32,7 +32,7 @@
         "Problem solving"
       ],
       "title": "More",
-      "id": 4
+      "id": "s-4"
     }
   ]
 }

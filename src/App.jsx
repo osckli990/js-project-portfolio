@@ -16,4 +16,5 @@ export const App = () => {
     </>
   );
 };
+
 //App is our main hub for all section and components. the "sandwich"

@@ -5,7 +5,11 @@ import { Profile } from "./HiThereComponents/Profile";
 
 export const HiThere = () => {
   return (
-    <header className="p-2">
+    <header
+      role="presentation"
+      aria-label="main presentation"
+      className="p-2 pr-4 pl-4"
+    >
       <Greeting />
       <Profile />
       <Introduction />
