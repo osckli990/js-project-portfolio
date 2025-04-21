@@ -6,7 +6,7 @@ import { SeeMore } from "./FeaturedProjectsComponents/SeeMore";
 
 export const FeaturedProjects = () => {
   return (
-    <section>
+    <section className="pb-14 pt-14 pl-4 pr-4">
       <Title />
       <ProjectBox />
       <SeeMore />

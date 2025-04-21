@@ -4,16 +4,20 @@ import styled from "styled-components";
 import seeMore from "../../assets/Ic-ArrowDown.svg";
 
 const StyledSeeMore = styled.button`
-  padding: 1px 6px;
+  padding: 0px 16px;
   background-color: white;
   color: black;
-  border: 1px outset black;
+  border: 2px outset black;
   text-decoration: none;
-  border-radius: 3px;
-  font-size: 1rem;
+  border-radius: 12px;
   cursor: pointer;
-  margin: 15px auto;
-  transition: background-color 0.3s ease;
+  margin: 0 auto;
+  transition: 0.3s linear;
+  display: flex;
+  font-weight: 500;
+  font-size: 18px;
+  height: 48px;
+  align-items: center;
 
   &:hover {
     text-decoration: underline;
@@ -23,7 +27,12 @@ const StyledSeeMore = styled.button`
 export const SeeMore = () => {
   return (
     <StyledSeeMore>
-      <img src={seeMore} alt="down arrow icon" aria-label="presentation" />
+      <img
+        src={seeMore}
+        alt="down-arrow icon"
+        aria-label="presentation"
+        className="mr-1 size-30"
+      />
       See more projects
     </StyledSeeMore>
   );

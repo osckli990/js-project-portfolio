@@ -1,5 +1,5 @@
 import React from "react";
 
-export const Title = ({ name }) => {
-  return <h3>{name}</h3>;
+export const Title = ({ title }) => {
+  return <h3 className="mb-3">{title}</h3>;
 };

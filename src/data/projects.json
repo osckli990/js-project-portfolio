@@ -1,49 +1,49 @@
 {
   "projects": [
     {
-      "name": "Business site",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
-      "desc": "123 123 123 123 123 1231 123 123 132",
-      "tags": ["HTML5", "CSS3", "JavaScript"],
-      "netlify": "link",
-      "github": "link",
-      "id": "p-1"
+      "name": "Portfolio",
+      "image": "https://images.unsplash.com/photo-1744671904209-671573b35fd9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "desc": "The portfolio you are currently looking at! Made through JSON, such as this text, and JavaScript and React to handle components and states",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React.js", "JSON"],
+      "netlify": "https://oscars-js-portfolio.netlify.app",
+      "github": "https://github.com/osckli990/js-project-portfolio",
+      "id": "p-5"
+    },
+    {
+      "name": "Recipe library",
+      "image": "https://images.unsplash.com/photo-1744671904209-671573b35fd9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "desc": "Using Spoonacular's complex search API to gather specific recipes, then using JavaScript to sort through different alternatives, independently and together. Inlcludes     pagination/infinite scrolling (well, until the api's daily limit)",
+      "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
+      "netlify": "https://js-project-recipe-library.netlify.app",
+      "github": "https://github.com/osckli990/js-project-recipe-library",
+      "id": "p-4"
     },
     {
       "name": "Weather app",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
-      "desc": "123 123 123 123 123 1231 123 123 132",
+      "image": "https://images.unsplash.com/photo-1744671904209-671573b35fd9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "desc": "A mob-programming project and weather application that enables the user to retrieve weather information from any city, inlucing general location-tracking",
       "tags": ["HTML5", "CSS3", "JavaScript", "TypeScript", "APIs"],
-      "netlify": "link",
-      "github": "link",
+      "netlify": "https://watherrr.netlify.app",
+      "github": "https://github.com/alex91-html/js-project-weather-app",
       "id": "p-2"
     },
     {
       "name": "Accessibility site",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
-      "desc": "0123 123 123 123 123 1231 123 123 132",
+      "image": "https://images.unsplash.com/photo-1744671904209-671573b35fd9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "desc": "Another project done in mob-programming. The site has a rudementary design but follows different guidelines to allow accessibility for different dissabilities or conditions",
       "tags": ["HTML5", "CSS3", "JavaScript", "WCAG", "W3C", "WAI"],
-      "netlify": "link",
-      "github": "link",
+      "netlify": "https://js-project-accessibility.netlify.app",
+      "github": "https://github.com/osckli990/js-project-accessibility",
       "id": "p-3"
     },
     {
-      "name": "Recipe library",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
-      "desc": "123 123 123 123 123 1231 123 123 132",
-      "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
-      "netlify": "link",
-      "github": "link",
-      "id": "p-4"
-    },
-    {
-      "name": "Portfolio",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
-      "desc": "0123 123 123 123 123 1231 123 123 132",
-      "tags": ["HTML5", "CSS3", "JavaScript", "React.js", "JSON", "Jest"],
-      "netlify": "link",
-      "github": "link",
-      "id": "p-5"
+      "name": "First project",
+      "image": "https://images.unsplash.com/photo-1744671904209-671573b35fd9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "desc": "My first web project! A front-end project with an introduction to design, while utilizing a form with simple validation and site functions, like a dark-mode",
+      "tags": ["HTML5", "CSS3", "JavaScript"],
+      "netlify": "https://js-project-business-site.netlify.app",
+      "github": "https://github.com/osckli990/js-project-business-site",
+      "id": "p-1"
     }
   ]
 }

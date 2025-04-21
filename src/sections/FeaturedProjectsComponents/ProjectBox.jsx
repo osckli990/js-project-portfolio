@@ -9,10 +9,11 @@ import { Links } from "./ProjectBoxComponents/Links";
 import { Title } from "./ProjectBoxComponents/Title";
 
 export const ProjectBox = () => {
+  console.log(projects.projects.name); //why the fuck is it underfined
   return (
     <>
       {projects.projects.slice(0, 4).map((project) => (
-        <section key={project.id}>
+        <section key={project.id} className="mb-14">
           <Image url={project.image} />
           <Tags tags={project.tags} />
           <article>
