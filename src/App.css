@@ -39,13 +39,6 @@ li {
   list-style-type: none;
 }
 
-.button {
-  padding: 1px 6px;
-  border: 1px outset buttonborder;
-  border-radius: 3px;
-  text-decoration: none;
-}
-
 /*on desktop*/
 @media (min-width: 1200px) {
   h1 {

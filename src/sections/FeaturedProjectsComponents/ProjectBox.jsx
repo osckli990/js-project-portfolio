@@ -6,6 +6,7 @@ import { Image } from "./ProjectBoxComponents/Image";
 import { Tags } from "./ProjectBoxComponents/Tags";
 import { Desc } from "./ProjectBoxComponents/Desc";
 import { Links } from "./ProjectBoxComponents/Links";
+import { Title } from "./ProjectBoxComponents/Title";
 
 export const ProjectBox = () => {
   return (
@@ -14,7 +15,10 @@ export const ProjectBox = () => {
         <section key={project.id}>
           <Image url={project.image} />
           <Tags tags={project.tags} />
-          <Desc title={project.name} desc={project.desc} />
+          <article>
+            <Title title={project.name} />
+            <Desc desc={project.desc} />
+          </article>
           <Links netlf={project.netlify} github={project.github} />
         </section>
       ))}
