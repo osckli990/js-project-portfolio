@@ -4,12 +4,11 @@ import projects from "../../data/projects.json";
 
 import { Image } from "./ProjectBoxComponents/Image";
 import { Tags } from "./ProjectBoxComponents/Tags";
-import { Desc } from "./ProjectBoxComponents/Desc";
+import { Desc } from "../Desc";
 import { Links } from "./ProjectBoxComponents/Links";
-import { Title } from "./ProjectBoxComponents/Title";
+import { Title } from "../TitleH3";
 
 export const ProjectBox = () => {
-  console.log(projects.projects.name); //why the fuck is it underfined
   return (
     <>
       {projects.projects.slice(0, 4).map((project) => (

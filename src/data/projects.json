@@ -3,8 +3,8 @@
     {
       "name": "Portfolio",
       "image": "https://images.unsplash.com/photo-1744671904209-671573b35fd9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "desc": "The portfolio you are currently looking at! Made through JSON, such as this text, and JavaScript and React to handle components and states",
-      "tags": ["HTML5", "CSS3", "JavaScript", "React.js", "JSON"],
+      "desc": "The portfolio you are currently looking at! Made through JSON, such as this text, and JavaScript and React to handle components and states. Monitored with a the testing framework Vitest",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React.js", "JSON", "Vitest"],
       "netlify": "https://oscars-js-portfolio.netlify.app",
       "github": "https://github.com/osckli990/js-project-portfolio",
       "id": "p-5"
@@ -12,8 +12,8 @@
     {
       "name": "Recipe library",
       "image": "https://images.unsplash.com/photo-1744671904209-671573b35fd9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "desc": "Using Spoonacular's complex search API to gather specific recipes, then using JavaScript to sort through different alternatives, independently and together. Inlcludes     pagination/infinite scrolling (well, until the api's daily limit)",
-      "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
+      "desc": "Using Spoonacular's complex-search API to gather specific recipes, then using JavaScript to sort through different alternatives, independently and together. Inlcludes     pagination/infinite scrolling (well, until the api's daily limit)",
+      "tags": ["HTML5", "CSS3", "JavaScript", "API"],
       "netlify": "https://js-project-recipe-library.netlify.app",
       "github": "https://github.com/osckli990/js-project-recipe-library",
       "id": "p-4"
@@ -21,8 +21,8 @@
     {
       "name": "Weather app",
       "image": "https://images.unsplash.com/photo-1744671904209-671573b35fd9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "desc": "A mob-programming project and weather application that enables the user to retrieve weather information from any city, inlucing general location-tracking",
-      "tags": ["HTML5", "CSS3", "JavaScript", "TypeScript", "APIs"],
+      "desc": "A mob-programming project and weather application that enables the user to retrieve weather information from any city, inlucing general location-tracking, through OpenWeather's API",
+      "tags": ["HTML5", "CSS3", "JavaScript", "TypeScript", "API"],
       "netlify": "https://watherrr.netlify.app",
       "github": "https://github.com/alex91-html/js-project-weather-app",
       "id": "p-2"
@@ -30,7 +30,7 @@
     {
       "name": "Accessibility site",
       "image": "https://images.unsplash.com/photo-1744671904209-671573b35fd9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "desc": "Another project done in mob-programming. The site has a rudementary design but follows different guidelines to allow accessibility for different dissabilities or conditions",
+      "desc": "Another project done in mob-programming. The site has a rudementary design but follows different guidelines to allow accessibility for different disabilities or conditions",
       "tags": ["HTML5", "CSS3", "JavaScript", "WCAG", "W3C", "WAI"],
       "netlify": "https://js-project-accessibility.netlify.app",
       "github": "https://github.com/osckli990/js-project-accessibility",

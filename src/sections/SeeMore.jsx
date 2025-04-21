@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import seeMore from "../../assets/Ic-ArrowDown.svg";
+import seeMore from "../assets/Ic-ArrowDown.svg";
 
 const StyledSeeMore = styled.button`
   padding: 0px 16px;
@@ -24,7 +24,7 @@ const StyledSeeMore = styled.button`
   }
 `;
 
-export const SeeMore = () => {
+export const SeeMore = ({ text = "See more projects" }) => {
   return (
     <StyledSeeMore>
       <img
@@ -33,7 +33,7 @@ export const SeeMore = () => {
         aria-label="presentation"
         className="mr-1 size-30"
       />
-      See more projects
+      {text}
     </StyledSeeMore>
   );
 };
