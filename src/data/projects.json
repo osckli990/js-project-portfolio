@@ -40,7 +40,7 @@
       "name": "Portfolio",
       "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
       "desc": "0123 123 123 123 123 1231 123 123 132",
-      "tags": ["HTML5", "CSS3", "JavaScript", "React.js", "JSON"],
+      "tags": ["HTML5", "CSS3", "JavaScript", "React.js", "JSON", "Jest"],
       "netlify": "link",
       "github": "link",
       "id": "p-5"
