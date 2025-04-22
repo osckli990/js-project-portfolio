@@ -8,7 +8,7 @@ export const Image = () => {
       src={profileImage}
       alt="profile image"
       aria-label="profile image"
-      className="mt-4 mb-16 mx-auto w-3/4"
+      className="mx-auto size-[164px]"
     />
   );
 };

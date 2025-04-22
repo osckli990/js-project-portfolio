@@ -7,7 +7,7 @@ export const Image = ({ url }) => {
         src={url}
         alt="Image of project"
         aria-label="Image of project"
-        className="h-200 self-stretch rounded-lg"
+        className="self-stretch rounded-[12px] w-100 h-[479px]"
       />
     </figure>
   );

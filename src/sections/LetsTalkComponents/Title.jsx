@@ -1,5 +1,5 @@
 import React from "react";
 
 export const Title = ({ title }) => {
-  return <h3 className="mb-[16px]">{title}</h3>;
+  return <h2 className="text-center text-white">{title}</h2>;
 };

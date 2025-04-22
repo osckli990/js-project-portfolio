@@ -31,7 +31,7 @@ export const SeeMore = ({ text = "See more projects" }) => {
         src={seeMore}
         alt="down-arrow icon"
         aria-label="presentation"
-        className="mr-1 size-30"
+        className="mr-[16px] size-[30px]"
       />
       {text}
     </StyledSeeMore>
@@ -39,3 +39,5 @@ export const SeeMore = ({ text = "See more projects" }) => {
 };
 
 //a styled component. do i like them? i think not
+
+//should be a part of a lower component hierarchy

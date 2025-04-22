@@ -1,10 +1,10 @@
 import React from "react";
 
-import { Title } from "./TitleInWhite";
+import { Title } from "../TitleInWhite";
 
 export const CategorySection = ({ title, data, RenderBox }) => {
   return (
-    <section className="bg-black flex flex-col pt-[64px] pb-[64px] gap-y-4">
+    <section className="bg-black flex flex-col pt-[64px] pb-[64px]">
       <Title title={title} />
       {data.map((category) => (
         <div

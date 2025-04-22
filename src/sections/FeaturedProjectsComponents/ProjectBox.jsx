@@ -12,7 +12,7 @@ export const ProjectBox = () => {
   return (
     <>
       {projects.projects.slice(0, 4).map((project) => (
-        <section key={project.id} className="mb-14">
+        <section key={project.id} className="mb-[64px]">
           <Image url={project.image} />
           <Tags tags={project.tags} />
           <article>

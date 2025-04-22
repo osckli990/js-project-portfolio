@@ -6,7 +6,7 @@ import { SeeMore } from "./SeeMore";
 
 export const MyWords = () => {
   return (
-    <section className="pb-14 pt-14 pl-4 pr-4 text-24 font-normal">
+    <section className="py-[64px] px-[24px] font-normal">
       <Title title="My Words" />
       <ArticleBox />
       <SeeMore text="See more articles" />
