@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Title } from "../TitleInWhite";
+import { Title } from "../TitleComponents/TitleInWhite";
 
 export const CategorySection = ({ title, data, RenderBox }) => {
   return (

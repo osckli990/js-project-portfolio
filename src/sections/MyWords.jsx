@@ -1,8 +1,8 @@
 import React from "react";
 
-import { Title } from "./Title";
+import { Title } from "./TitleComponents/Title";
 import { ArticleBox } from "./MyWordsComponents/ArticleBox";
-import { SeeMore } from "./SeeMore";
+import { SeeMore } from "./SeeMoreComponent/SeeMore";
 
 export const MyWords = () => {
   return (
