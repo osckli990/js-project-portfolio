@@ -1,3 +1,4 @@
+/*
 import React from "react";
 
 import tech from "../data/tech.json";
@@ -7,10 +8,10 @@ import { Title } from "./TitleInWhite";
 
 export const Tech = () => {
   return (
-    <section className="bg-black container flex flex-col gap-y-4 pt-14 pb-14">
+    <section className="bg-black flex flex-col pt-[64px] pb-[64px]">
       <Title title="Tech" />
       {tech.tech.map((category) => (
-        <div className="text-white w-1/2 mx-auto">
+        <div className="text-white w-1/2 mx-auto text-16 font-normal mb-[24px]">
           <TechBox
             key={category.id}
             tech={category.names}
@@ -21,3 +22,21 @@ export const Tech = () => {
     </section>
   );
 };
+*/
+
+import React from "react";
+
+import tech from "../data/tech.json";
+
+import { CategorySection } from "./CategorySection";
+import { CategoryBox } from "./CategoryBox";
+
+export const Tech = () => (
+  <CategorySection
+    title="Tech"
+    data={tech.tech}
+    RenderBox={({ title, items }) => (
+      <CategoryBox title={title} items={items} />
+    )}
+  />
+);

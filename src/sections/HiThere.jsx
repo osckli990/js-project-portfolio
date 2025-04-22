@@ -8,7 +8,7 @@ export const HiThere = () => {
     <header
       role="presentation"
       aria-label="main presentation"
-      className="p-2 pr-4 pl-4"
+      className="pr-[16px] pl-[16px]"
     >
       <Greeting />
       <Profile />
