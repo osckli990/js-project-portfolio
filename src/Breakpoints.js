@@ -5,6 +5,7 @@ export const media = {
   desktop: "(min-width: 1536px)",
 };
 
+//sm = 640px
 //mobile = 768px = md
 //tablet = 1024px = lg
 //smalldesktop = 1280px = xl

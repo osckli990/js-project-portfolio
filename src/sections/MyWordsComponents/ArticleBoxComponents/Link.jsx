@@ -7,7 +7,7 @@ export const Link = ({ link }) => {
     <div>
       <a
         href={link}
-        className="flex items-center bg-black text-white text-18 font-medium py-0 px-[16px] rounded-[16px] h-[48px] w-[270px] hover:underline"
+        className="flex items-center bg-black text-white text-18 font-medium py-0 px-[16px] rounded-[16px] h-[48px] w-[270px] sm:w-[303px] hover:underline"
       >
         <img src={linkPic} alt="" className="size-[30px] mr-[16px]" />
         Read article

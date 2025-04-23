@@ -12,14 +12,19 @@ export const ArticleBox = () => {
   return (
     <>
       {mywords.articles.slice(0, 4).map((article) => (
-        <section key={article.id} className="mb-[64px]">
+        <section
+          key={article.id}
+          className="mb-[64px] sm:flex sm:w-[640px] sm:mx-auto"
+        >
           <Image url={article.image} />
-          <Date date={article.date} />
-          <article>
-            <Title title={article.title} />
-            <Desc desc={article.desc} />
-          </article>
-          <Link link={article.link} />
+          <section className="sm:pl-[32px] h-full sm:flex sm:flex-col">
+            <Date date={article.date} />
+            <article>
+              <Title title={article.title} />
+              <Desc desc={article.desc} />
+            </article>
+            <Link link={article.link} />
+          </section>
         </section>
       ))}
     </>
