@@ -10,6 +10,12 @@ export const GlobalStyle = createGlobalStyle`
   color: #000000;
   }
 
+  :focus-visible {
+  outline: 4px solid yellow;
+  outline-offset: 2px;
+  border-radius: 2px;
+  }
+
   body {
   margin: 0;
   padding: 0;

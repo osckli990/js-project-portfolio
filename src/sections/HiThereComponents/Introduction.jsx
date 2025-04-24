@@ -2,7 +2,7 @@ import React from "react";
 
 export const Introduction = () => {
   return (
-    <p className="pb-[64px] xl:pb-[16px] text-16 font-normal">
+    <p className="pb-[64px] xl:pb-[16px] text-16 font-normal" tabIndex={2}>
       As a developer with a background in health and social care 💊, I have a
       unique perspective on how technology can improve people's lives. I am
       currently enrolled in a 32-week remote bootcamp at Technigo, where I am

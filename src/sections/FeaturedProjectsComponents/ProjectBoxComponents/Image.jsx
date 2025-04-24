@@ -7,8 +7,10 @@ export const Image = ({ url }) => {
         src={url}
         alt="Image of project"
         aria-label="Image of project"
-        className="object-fill self-stretch rounded-[12px] w-<100> h-<100> xl:w-[749px]"
+        className="bg-cover bg-center bg-no-repeat sm:h-<100> rounded-[12px] xl:w-[749px] "
       />
     </figure>
   );
 };
+
+//object-fill self-stretch

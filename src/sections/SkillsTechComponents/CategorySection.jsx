@@ -2,9 +2,12 @@ import React from "react";
 
 import { Title } from "../TitleComponents/TitleInWhite";
 
-export const CategorySection = ({ title, data, RenderBox }) => {
+export const CategorySection = ({ title, data, RenderBox, index }) => {
   return (
-    <section className="bg-black flex flex-col pt-[64px] xl:pt-[128px] pb-[64px] xl:pb-[128px] xl:items-center">
+    <section
+      className="bg-black flex flex-col pt-[64px] xl:tp-[128px] pb-[64px] xl:pb-[128px] xl:items-center "
+      tabIndex={index}
+    >
       <Title title={title} />
       <div className="flex flex-col xl:flex-row">
         {data.map((category) => (

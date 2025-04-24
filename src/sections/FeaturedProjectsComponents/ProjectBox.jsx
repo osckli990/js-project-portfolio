@@ -17,7 +17,7 @@ export const ProjectBox = () => {
           className="mb-[64px] xl:mb-[128px] xl:flex xl:items-center"
         >
           <Image url={project.image} />
-          <section className="xl:ml-[125px] xl:mr-[128px]">
+          <section className="xl:mr-[128px]">
             <Tags tags={project.tags} />
             <article>
               <Title title={project.name} />
