@@ -4,7 +4,7 @@ import mywords from "../../data/mywords.json";
 
 import { Image } from "./ArticleBoxComponents/Image";
 import { Date } from "./ArticleBoxComponents/Date";
-import { Desc } from "../Desc";
+import { Desc } from "../DescComponent/Desc";
 import { Link } from "./ArticleBoxComponents/Link";
 import { Title } from "../TitleComponents/TitleH3";
 
@@ -17,7 +17,7 @@ export const ArticleBox = () => {
           className="mb-[64px] sm:flex sm:w-[640px] sm:mx-auto"
         >
           <Image url={article.image} />
-          <section className="sm:pl-[32px] h-full sm:flex sm:flex-col">
+          <section className="sm:pl-[32px] sm:w-[500px] h-full sm:flex sm:flex-col">
             <Date date={article.date} />
             <article>
               <Title title={article.title} />

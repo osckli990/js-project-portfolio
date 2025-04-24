@@ -28,8 +28,8 @@ import React from "react";
 
 import tech from "../data/tech.json";
 
-import { CategorySection } from "./SkillsTechComponent/CategorySection";
-import { CategoryBox } from "./SkillsTechComponent/CategoryBox";
+import { CategorySection } from "./SkillsTechComponents/CategorySection";
+import { CategoryBox } from "./SkillsTechComponents/CategoryBox";
 
 export const Tech = () => (
   <CategorySection

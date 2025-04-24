@@ -8,7 +8,7 @@ export const CategoryBox = ({ title, items }) => {
       </p>
       <ul>
         {items.map((item, index) => (
-          <li key={index} className="text-white text-center">
+          <li key={index} className="text-white text-center xl:text-left">
             {item}
           </li>
         ))}
