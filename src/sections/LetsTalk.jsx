@@ -7,7 +7,11 @@ import { Links } from "./LetsTalkComponents/Links";
 
 export const LetsTalk = () => {
   return (
-    <section className="bg-black flex flex-col gap-y-[64px] py-[64px] px-[16px]">
+    <section
+      role="footer"
+      aria-label="footer"
+      className="bg-black flex flex-col gap-y-[64px] py-[64px] px-[16px]"
+    >
       <Title title="Let's Talk" className="mb-0" />
       <Image />
       <Info />

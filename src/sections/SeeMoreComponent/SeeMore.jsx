@@ -26,7 +26,7 @@ const StyledSeeMore = styled.button`
 
 export const SeeMore = ({ text = "See more projects" }) => {
   return (
-    <StyledSeeMore>
+    <StyledSeeMore role="navbar" aria-label="button to more projects">
       <img
         src={seeMore}
         alt="down-arrow icon"

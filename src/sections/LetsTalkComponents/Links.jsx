@@ -6,7 +6,7 @@ import GithubPic from "../../assets/Ic-Github.svg";
 
 export const Links = () => {
   return (
-    <div className="flex gap-[32px] mx-auto">
+    <div role="navbar" className="flex gap-[32px] mx-auto">
       <a href="www.linkedin.com/in/oscar-kling-liljefors-139474159">
         <img
           src={LinkedInPic}

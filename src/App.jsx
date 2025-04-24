@@ -25,5 +25,4 @@ export const App = () => {
 //App is our main hub for all section and components. the "sandwich"
 
 //add tests
-//change from tailwind to more styled components
-//clear app.css to not have any dead css when removing components
+//add accessibility and aria-labels
