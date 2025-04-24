@@ -8,10 +8,7 @@ import { Desc } from "../DescComponent/Desc";
 import { Links } from "./ProjectBoxComponents/Links";
 import { Title } from "../TitleComponents/TitleH3";
 
-let index = 0;
-
 export const ProjectBox = () => {
-  index += 1;
   return (
     <>
       {projects.projects.slice(0, 4).map((project, index) => (
