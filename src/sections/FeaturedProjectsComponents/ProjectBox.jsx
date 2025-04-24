@@ -8,16 +8,19 @@ import { Desc } from "../DescComponent/Desc";
 import { Links } from "./ProjectBoxComponents/Links";
 import { Title } from "../TitleComponents/TitleH3";
 
+let index = 0;
+
 export const ProjectBox = () => {
+  index += 1;
   return (
     <>
-      {projects.projects.slice(0, 4).map((project) => (
+      {projects.projects.slice(0, 4).map((project, index) => (
         <section
           key={project.id}
-          className="mb-[64px] xl:mb-[128px] xl:flex xl:items-center"
+          className="mb-[64px] xl:mb-[128px] xl:grid xl:grid-cols-2 xl:items-center xl:gap-[125px]"
         >
-          <Image url={project.image} />
-          <section className="xl:mr-[128px]">
+          <Image index={index} url={project.image} />
+          <section className="">
             <Tags tags={project.tags} />
             <article>
               <Title title={project.name} />

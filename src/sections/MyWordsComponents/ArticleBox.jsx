@@ -14,10 +14,10 @@ export const ArticleBox = () => {
       {mywords.articles.slice(0, 4).map((article) => (
         <section
           key={article.id}
-          className="mb-[64px] sm:flex sm:w-[640px] sm:mx-auto"
+          className="mb-[64px] sm:grid sm:grid-cols-2 sm:items-center xl:gap-[125px]"
         >
           <Image url={article.image} />
-          <section className="sm:pl-[32px] sm:w-[500px] h-full sm:flex sm:flex-col">
+          <section className="sm:pl-[32px] xl:pl-0 h-full sm:flex sm:flex-col sm:justify-center">
             <Date date={article.date} />
             <article>
               <Title title={article.title} />

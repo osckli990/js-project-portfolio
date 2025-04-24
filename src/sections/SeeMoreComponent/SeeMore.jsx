@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import seeMore from "../../assets/Ic-ArrowDown.svg";
+import { media } from "../../Breakpoints";
 
 const StyledSeeMore = styled.button`
   padding: 0px 16px;
@@ -21,6 +22,10 @@ const StyledSeeMore = styled.button`
 
   &:hover {
     text-decoration: underline;
+  }
+
+  @media ${media.smalldesktop} {
+    margin-top: 64px;
   }
 `;
 

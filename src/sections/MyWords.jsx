@@ -6,7 +6,7 @@ import { SeeMore } from "./SeeMoreComponent/SeeMore";
 
 export const MyWords = () => {
   return (
-    <section className="py-[64px] px-[24px] font-normal">
+    <section className="py-[64px] xl:py-[128px] px-[24px] xl:px-[128px] font-normal xl:flex xl:flex-col justify-center items-center">
       <Title title="My Words" />
       <ArticleBox />
       <SeeMore text="See more articles" />

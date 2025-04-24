@@ -9,7 +9,7 @@ export const Links = ({ netlf, github }) => {
       <div>
         <a
           href={netlf}
-          className="flex items-center bg-black text-white text-18 font-medium mb-[6px] py-0 px-[16px] rounded-[16px] h-[48px] w-[290px] sm:w-[303px] hover:underline"
+          className="flex items-center bg-black text-white text-18 font-medium mb-[6px] py-0 px-[16px] rounded-[16px] h-[48px] w-[290px] lg:w-[303px] hover:underline"
         >
           <img src={netlifyPic} alt="" className="size-[30px] mr-[16px]" />
           Live demo
@@ -18,7 +18,7 @@ export const Links = ({ netlf, github }) => {
       <div>
         <a
           href={github}
-          className="flex items-center bg-black text-white text-18 font-medium py-0 px-[16px] rounded-[16px] h-[48px] w-[290px] sm:w-[303px] hover:underline"
+          className="flex items-center bg-black text-white text-18 font-medium py-0 px-[16px] rounded-[16px] h-[48px] w-[290px] lg:w-[303px] hover:underline"
         >
           <img src={githubPic} alt="" className="size-[30px] mr-[16px]" />
           View code
