@@ -29,14 +29,19 @@ const StyledSeeMore = styled.button`
   }
 `;
 
+const StyledImg = styled.img`
+  margin-right: 16px;
+  height: 30px;
+  width: 30px;
+`;
+
 export const SeeMore = ({ text = "See more projects" }) => {
   return (
     <StyledSeeMore role="navbar" aria-label="button to more projects">
-      <img
+      <StyledImg
         src={seeMore}
         alt="down-arrow icon"
         aria-label="presentation"
-        className="mr-[16px] size-[30px]"
       />
       {text}
     </StyledSeeMore>
@@ -44,5 +49,3 @@ export const SeeMore = ({ text = "See more projects" }) => {
 };
 
 //a styled component. do i like them? i think not
-
-//should be a part of a lower component hierarchy

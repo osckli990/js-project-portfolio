@@ -4,7 +4,15 @@
       "name": "Portfolio",
       "image": "https://images.unsplash.com/photo-1635745695784-470355fc2191?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "desc": "The portfolio you are currently looking at! Made through JSON, such as this text, and JavaScript and React to handle components and states. Monitored with a the testing framework Vitest",
-      "tags": ["HTML5", "CSS3", "JavaScript", "React.js", "JSON", "Vitest"],
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React.js",
+        "JSON",
+        "Vitest",
+        "TailwindCSS"
+      ],
       "netlify": "https://oscars-js-portfolio.netlify.app",
       "github": "https://github.com/osckli990/js-project-portfolio",
       "id": "p-5"
