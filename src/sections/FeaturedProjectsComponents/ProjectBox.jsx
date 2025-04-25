@@ -8,10 +8,11 @@ import { Desc } from "../DescComponent/Desc";
 import { Links } from "./ProjectBoxComponents/Links";
 import { Title } from "../TitleComponents/TitleH3";
 
-export const ProjectBox = () => {
+export const ProjectBox = ({ load }) => {
+  console.log(load);
   return (
     <>
-      {projects.projects.slice(0, 4).map((project, index) => (
+      {projects.projects.slice(0, load).map((project, index) => (
         <section
           key={project.id}
           className="mb-[64px] xl:mb-[128px] xl:grid xl:grid-cols-2 xl:items-center xl:gap-[125px]"

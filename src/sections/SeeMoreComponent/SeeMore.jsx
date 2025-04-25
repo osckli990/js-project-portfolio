@@ -35,9 +35,13 @@ const StyledImg = styled.img`
   width: 30px;
 `;
 
-export const SeeMore = ({ text = "See more projects" }) => {
+export const SeeMore = ({ text = "See more projects", onClick }) => {
   return (
-    <StyledSeeMore role="navbar" aria-label="button to more projects">
+    <StyledSeeMore
+      role="navbar"
+      aria-label="button to more projects"
+      onClick={onClick}
+    >
       <StyledImg
         src={seeMore}
         alt="down-arrow icon"
