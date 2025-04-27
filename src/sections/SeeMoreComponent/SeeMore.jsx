@@ -41,6 +41,7 @@ export const SeeMore = ({ text = "See more projects", onClick }) => {
       role="navbar"
       aria-label="button to more projects"
       onClick={onClick}
+      data-aos="fade-up"
     >
       <StyledImg
         src={seeMore}
