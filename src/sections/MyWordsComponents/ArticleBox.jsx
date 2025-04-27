@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import mywords from "../../data/mywords.json";
 
@@ -9,12 +9,16 @@ import { Link } from "./ArticleBoxComponents/Link";
 import { Title } from "../TitleComponents/TitleH3";
 
 export const ArticleBox = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  });
   return (
     <>
       {mywords.articles.slice(0, 4).map((article) => (
         <section
           key={article.id}
           className="mb-[64px] sm:grid sm:grid-cols-2 sm:items-center xl:items-start"
+          data-aos="fade-up"
         >
           <Image url={article.image} />
           <section className="sm:pl-[32px] xl:pl-0 h-full sm:flex sm:flex-col sm:justify-center">

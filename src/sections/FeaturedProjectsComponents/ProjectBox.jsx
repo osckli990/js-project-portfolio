@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import projects from "../../data/projects.json";
 
@@ -8,14 +8,21 @@ import { Desc } from "../DescComponent/Desc";
 import { Links } from "./ProjectBoxComponents/Links";
 import { Title } from "../TitleComponents/TitleH3";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export const ProjectBox = ({ load }) => {
-  console.log(load);
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  });
+
   return (
     <>
       {projects.projects.slice(0, load).map((project, index) => (
         <section
           key={project.id}
           className="mb-[64px] xl:mb-[128px] xl:grid xl:grid-cols-2 xl:items-center xl:gap-[125px]"
+          data-aos="fade-up"
         >
           <Image index={index} url={project.image} />
           <section className="">

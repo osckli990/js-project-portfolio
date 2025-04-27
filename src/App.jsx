@@ -12,12 +12,12 @@ export const App = () => {
   return (
     <>
       <GlobalStyle />
-      <HiThere />
-      <Tech />
-      <FeaturedProjects />
-      <Skills />
-      <MyWords />
-      <LetsTalk />
+      <HiThere data-aos="fade-up" />
+      <Tech data-aos="fade-up" />
+      <FeaturedProjects data-aos="fade-up" />
+      <Skills data-aos="fade-up" />
+      <MyWords data-aos="fade-up" />
+      <LetsTalk data-aos="fade-up" />
     </>
   );
 };

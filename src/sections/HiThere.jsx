@@ -10,7 +10,7 @@ export const HiThere = () => {
     <header
       role="presentation"
       aria-label="main presentation"
-      className="px-[16px] sm:px-[24px] lg:w-[782px] lg:mx-auto sm:text-center motion-preset-fade motion-duration-2000"
+      className="px-[16px] sm:px-[24px] lg:w-[782px] lg:mx-auto sm:text-center"
     >
       <Greeting />
       <Profile />
