@@ -1,6 +1,6 @@
 import React from "react";
 
-import profileImage from "../../assets/cropped_profile.png";
+import profileImage from "../../assets/cropped_profile.avif";
 
 export const Profile = () => {
   return (
