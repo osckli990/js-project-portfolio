@@ -35,7 +35,6 @@ export const Tech = () => (
   <CategorySection
     title="Tech"
     data={tech.tech}
-    index={3}
     RenderBox={({ title, items }) => (
       <CategoryBox title={title} items={items} />
     )}

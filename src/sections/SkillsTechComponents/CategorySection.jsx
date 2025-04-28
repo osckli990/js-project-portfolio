@@ -8,7 +8,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export const CategorySection = ({ title, data, RenderBox, index }) => {
+export const CategorySection = ({ title, data, RenderBox }) => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   });
@@ -16,7 +16,7 @@ export const CategorySection = ({ title, data, RenderBox, index }) => {
   return (
     <section
       className="bg-black flex flex-col pt-[64px] xl:tp-[128px] pb-[64px] xl:pb-[128px] xl:items-center "
-      tabIndex={index}
+      tabIndex="0"
     >
       <Title title={title} />
       <div className="flex flex-col xl:flex-row">

@@ -5,7 +5,7 @@ import githubPic from "../../../assets/Ic-Github.svg";
 
 export const Links = ({ netlf, github }) => {
   return (
-    <section role="navigation" aria-label="links related to project">
+    <section role="navigation">
       <div>
         <a
           href={netlf}

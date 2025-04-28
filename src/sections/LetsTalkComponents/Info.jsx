@@ -2,7 +2,7 @@ import React from "react";
 
 export const Info = () => {
   return (
-    <article className="mx-auto">
+    <article className="mx-auto" tabIndex="0">
       <p className="text-[24px] text-white pb-[8px] sm:text-center">
         Oscar Liljefors
       </p>
