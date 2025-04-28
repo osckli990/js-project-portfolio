@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Portfolio",
-      "image": "https://images.unsplash.com/photo-1635745695784-470355fc2191?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "/article-portfolio.avif",
       "desc": "The portfolio you are currently looking at! Made through JSON, such as this text, and JavaScript and React to handle components and states. Monitored with a the testing framework Vitest",
       "tags": [
         "HTML5",
@@ -19,7 +19,7 @@
     },
     {
       "name": "Recipe library",
-      "image": "https://images.unsplash.com/photo-1635745695784-470355fc2191?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "/article-recipe.avif",
       "desc": "Using Spoonacular's complex-search API to gather specific recipes, then using JavaScript to sort through different alternatives, independently and together. Inlcludes     pagination/infinite scrolling (well, until the api's daily limit)",
       "tags": ["HTML5", "CSS3", "JavaScript", "API"],
       "netlify": "https://js-project-recipe-library.netlify.app",
@@ -28,7 +28,7 @@
     },
     {
       "name": "Weather app",
-      "image": "https://images.unsplash.com/photo-1635745695784-470355fc2191?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "/article-weather.avif",
       "desc": "A mob-programming project and weather application that enables the user to retrieve weather information from any city, inlucing general location-tracking, through OpenWeather's API",
       "tags": ["HTML5", "CSS3", "JavaScript", "TypeScript", "API"],
       "netlify": "https://watherrr.netlify.app",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Accessibility site",
-      "image": "https://images.unsplash.com/photo-1635745695784-470355fc2191?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "/article-acces.avif",
       "desc": "Another project done in mob-programming. The site has a rudementary design but follows different guidelines to allow accessibility for different disabilities or conditions",
       "tags": ["HTML5", "CSS3", "JavaScript", "WCAG", "W3C", "WAI"],
       "netlify": "https://js-project-accessibility.netlify.app",
@@ -46,7 +46,7 @@
     },
     {
       "name": "First project",
-      "image": "https://images.unsplash.com/photo-1635745695784-470355fc2191?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "/article-first.avif",
       "desc": "My first web project! A front-end project with an introduction to design, while utilizing a form with simple validation and site functions, like a dark-mode",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "https://js-project-business-site.netlify.app",

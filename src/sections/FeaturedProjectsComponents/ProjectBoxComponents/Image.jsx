@@ -9,7 +9,7 @@ export const Image = ({ index, url }) => {
         src={url}
         alt="Image of project"
         aria-label="Image of project"
-        className="bg-cover bg-center bg-no-repeat sm:h-full rounded-[12px] xl:w-[749px]"
+        className="bg-cover bg-center bg-no-repeat sm:h-full rounded-[12px] xl:w-[749px] border-none"
       />
     </figure>
   );
