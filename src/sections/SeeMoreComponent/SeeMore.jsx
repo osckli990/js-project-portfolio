@@ -38,7 +38,6 @@ const StyledImg = styled.img`
 export const SeeMore = ({ text = "See more projects", onClick }) => {
   return (
     <StyledSeeMore
-      role="navigation"
       aria-label="button to more projects"
       onClick={onClick}
       data-aos="fade-up"

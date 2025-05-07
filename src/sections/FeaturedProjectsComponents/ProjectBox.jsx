@@ -14,7 +14,7 @@ import "aos/dist/aos.css";
 export const ProjectBox = ({ load }) => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
-  });
+  }, []);
   console.log(load);
 
   return (
