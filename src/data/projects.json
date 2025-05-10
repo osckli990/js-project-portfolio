@@ -1,6 +1,15 @@
 {
   "projects": [
     {
+      "name": "Happy Thoughts",
+      "image": "/happy_thoughts.avif",
+      "desc": "A message app connected with API, created using React state management",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React.js", "API", "TailwindCSS"],
+      "netlify": "https://js-project-happy-thoughts.netlify.app",
+      "github": "https://github.com/osckli990/js-project-happy-thoughts",
+      "id": "p-1"
+    },
+    {
       "name": "Portfolio",
       "image": "/article-portfolio.avif",
       "desc": "The portfolio you are currently looking at! Made through JSON, such as this text, and JavaScript and React to handle components and states. Monitored with a the testing framework Vitest",
@@ -15,7 +24,7 @@
       ],
       "netlify": "https://oscars-js-portfolio.netlify.app",
       "github": "https://github.com/osckli990/js-project-portfolio",
-      "id": "p-5"
+      "id": "p-2"
     },
     {
       "name": "Recipe library",
@@ -24,7 +33,7 @@
       "tags": ["HTML5", "CSS3", "JavaScript", "API"],
       "netlify": "https://js-project-recipe-library.netlify.app",
       "github": "https://github.com/osckli990/js-project-recipe-library",
-      "id": "p-4"
+      "id": "p-3"
     },
     {
       "name": "Weather app",
@@ -33,7 +42,7 @@
       "tags": ["HTML5", "CSS3", "JavaScript", "TypeScript", "API"],
       "netlify": "https://watherrr.netlify.app",
       "github": "https://github.com/alex91-html/js-project-weather-app",
-      "id": "p-2"
+      "id": "p-4"
     },
     {
       "name": "Accessibility site",
@@ -42,7 +51,7 @@
       "tags": ["HTML5", "CSS3", "JavaScript", "WCAG", "W3C", "WAI"],
       "netlify": "https://js-project-accessibility.netlify.app",
       "github": "https://github.com/osckli990/js-project-accessibility",
-      "id": "p-3"
+      "id": "p-5"
     },
     {
       "name": "First project",
@@ -51,7 +60,7 @@
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "https://js-project-business-site.netlify.app",
       "github": "https://github.com/osckli990/js-project-business-site",
-      "id": "p-1"
+      "id": "p-6"
     }
   ]
 }
