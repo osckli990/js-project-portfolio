@@ -3,11 +3,29 @@
     {
       "name": "Happy Thoughts",
       "image": "/happy_thoughts.avif",
-      "desc": "A message app connected with API, created using React state management",
+      "desc": "Happy Thoughts is a full-stack web app where users can share and like short, uplifting messages. It features user authentication, real-time updates, and a clean, responsive interface styled with Tailwind CSS.",
       "tags": ["HTML5", "CSS3", "JavaScript", "React.js", "API", "TailwindCSS"],
       "netlify": "https://js-project-happy-thoughts.netlify.app",
       "github": "https://github.com/osckli990/js-project-happy-thoughts",
       "id": "p-1"
+    },
+    {
+      "name": "API Project",
+      "image": "/article-api.avif",
+      "desc": "A RESTful API built with Express.js, allowing users to perform CRUD operations on a MongoDB database. It includes user authentication and validation using Mongoose. Connected to the Happy Thoughts project.",
+      "tags": ["Express.js", "MongoDB", "Mongoose", "JavaScript", "API"],
+      "netlify": "",
+      "github": "https://github.com/Technigo/js-project-api",
+      "id": "p-1_25"
+    },
+    {
+      "name": "Todo webbapp",
+      "image": "/article-todo.avif",
+      "desc": "A simple todo application built with React, allowing users to add, remove, and edit tasks. A deepdive into global state management using Zustand, a small and fast state management library for react",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React.js", "API", "Zustand"],
+      "netlify": "https://oscar-todo.netlify.app/",
+      "github": "https://github.com/osckli990/js-project-todo",
+      "id": "p-1_5"
     },
     {
       "name": "Portfolio",
@@ -54,13 +72,22 @@
       "id": "p-5"
     },
     {
+      "name": "Movie site",
+      "image": "/article-movie.avif",
+      "desc": "Multi-page movie site with a simple design, using React and API to fetch data from The Movie Database (TMDB). Includes a search function and pagination.",
+      "tags": ["HTML5", "CSS3", "JavaScript", "React.js", "API"],
+      "netlify": "https://js-movie-react-oscar.netlify.app",
+      "github": "https://github.com/osckli990/js-project-movies",
+      "id": "p-7"
+    },
+    {
       "name": "First project",
       "image": "/article-first.avif",
       "desc": "My first web project! A front-end project with an introduction to design, while utilizing a form with simple validation and site functions, like a dark-mode",
       "tags": ["HTML5", "CSS3", "JavaScript"],
       "netlify": "https://js-project-business-site.netlify.app",
       "github": "https://github.com/osckli990/js-project-business-site",
-      "id": "p-6"
+      "id": "p-8"
     }
   ]
 }
